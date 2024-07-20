@@ -2,6 +2,8 @@
     font-family: "Roboto";
 }
 
+/* Header CSS*/
+
 header {
     display: flex;
     justify-content: space-around;
@@ -26,4 +28,167 @@ a {
 .header-logo {
     font-size: 24px;
     color: #F9FAF8;
+}
+
+/* Hero CSS */
+
+.hero {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    padding: 100px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+    margin: 0px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 0px;
+}
+
+.hero-content {
+    width: 400px;
+    margin: 0px 100px 0px 0px;
+}
+
+.hero button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    height: 37px;
+    width: 128px;
+    border: #3882f6;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px;
+}
+
+/* Features CSS */
+
+.features h1 {
+    font-size: 36px;
+    font-weight: extra-bold;
+    color: #1F2937;
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 50px;
+}
+.card-border {
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 10px;
+}
+
+.features p {
+    text-align: center;
+    font-size: 18px;
+    color: #4B5563;
+    margin-top: 5px;
+}
+
+/* Quote CSS */
+
+.quote {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 150px 300px;
+    padding-bottom: 100px;
+}
+
+.quote-content {
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    margin: auto 200px;
+    margin-bottom: 0px;
+}
+
+.thor {
+    display: flex;
+    align-self: flex-end;
+    margin-right: 200px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Call to Action CSS */
+
+.call-to-action {
+    display: flex;
+    justify-content: center;
+}
+
+.box {
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+    background-color: #3882f6;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 100px 0px;
+}
+
+.box-content {
+    color: #F9FAF8;
+    margin: 20px 0px;
+}
+
+.box-content h1 {
+    font-size: 25px;
+    margin-bottom: 0px;
+}
+
+.box-content p {
+    margin-top: 0px;
+    color: #E5E7EB;
+}
+
+.box button {
+    background-color: #3882f6;
+    color: #F9FAF8;
+    border-radius: 10px;
+    height: 37px;
+    width: 128px;
+    border: 2px #F9FAF8 solid;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 10px 0px; 
+}
+
+/* Footer CSS */
+
+footer {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #E5E7EB;
+}
+
+footer p {
+    margin: 40px 0px;
 }
