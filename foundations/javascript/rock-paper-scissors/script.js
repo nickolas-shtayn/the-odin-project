@@ -38,7 +38,6 @@ function playRound(humanChoice, computerChoice, score){
     if(result){
         console.log(result);
 
-        //update the scoreboard for round
         if (result.includes("win")){
             score.human += 1;
         } else if (result.includes("lose")){
