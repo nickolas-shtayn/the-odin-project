@@ -2,31 +2,11 @@ const TOTAL_ROUNDS = 5;
 const CHOICES = ["rock", "paper", "scissors"]
 
 function getComputerChoice(){
-    // randomly return rock, paper or scissors
-    // let randomValue = Math.random();
-    // if (randomValue <= 0.333){ 
-    //     return "Rock";
-    // } else if (randomValue <= 0.666){ 
-    //     return "Paper";
-    // } else {
-    //     return "Scissors";
-    // }   
     let randomIndex = Math.floor(Math.random() * CHOICES.length);
     return CHOICES[randomIndex];
 }
 
 function getHumanChoice(){
-    // return one of the valid choices depending on the user input
-    // let answer = prompt("What is your choice?").toLowerCase() 
-    // if (answer === "rock"){
-    //     return "Rock";
-    // } else if (answer === "paper"){
-    //     return "Paper";
-    // } else if (answer === "scissors"){
-    //     return "Scissors";
-    // } else {
-    //     console.log('Your choice must be "Rock", "Paper" or "Scissors"');
-    //     return getHumanChoice();"
     let userAnswer = prompt("What is your choice?");
 
     // normalize format and match choices format
